@@ -1,0 +1,61 @@
+{
+  "name": "task2_tynnanconquit_45898723",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "type": "module",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/bottom-tabs": "^6.3.1",
+    "@react-navigation/native": "^6.0.10",
+    "@react-navigation/native-stack": "^6.5.2",
+    "@react-navigation/stack": "^6.1.1",
+    "@types/react-test-renderer": "^17.0.1",
+    "0g": "^0.0.6",
+    "expo": "^45.0.4",
+    "expo-constants": "~13.1.1",
+    "expo-image-picker": "~13.1.1",
+    "expo-status-bar": "~1.3.0",
+    "formik": "^2.2.9",
+    "jest": "^26.6.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-native": "0.68.2",
+    "react-native-dotenv": "^3.3.1",
+    "react-native-gesture-handler": "~2.2.1",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
+    "react-native-reanimated": "~2.8.0",
+    "react-native-safe-area-context": "4.2.4",
+    "react-native-screens": "~3.11.1",
+    "react-native-vector-icons": "^9.1.0",
+    "react-native-web": "0.17.7",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.17.12",
+    "babel-jest": "^28.1.0",
+    "babel-preset-react-native": "^4.0.1",
+    "detox": "^19.6.7",
+    "jest": "^26.6.3",
+    "jest-environment-jsdom": "^28.1.0",
+    "jest-expo": "^41.0.0",
+    "jest-react-native": "^18.0.0",
+    "react-test-renderer": "^17.0.2"
+  },
+  "private": true
+}
